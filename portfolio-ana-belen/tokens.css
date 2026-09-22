@@ -1,0 +1,119 @@
+/* ============================================================
+   ANA BELÉN PÉREZ — PORTFOLIO
+   Design tokens — Mediterranean olive palette
+   ============================================================ */
+
+:root,
+[data-theme='light'] {
+  /* ---- Type scale (fluid clamp) ---- */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+  --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+  --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+  --text-hero: clamp(3rem, 0.5rem + 7vw, 7.5rem);
+
+  /* ---- 4px spacing system ---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* ---- Mediterranean olive palette ---- */
+  --color-bg: #f7f2e7;
+  --color-surface: #fbf7ee;
+  --color-surface-2: #fffdf8;
+  --color-surface-offset: #efe6d2;
+  --color-surface-offset-2: #e6dabd;
+  --color-surface-dynamic: #ddcda4;
+  --color-divider: #d9cba3;
+  --color-border: #c9b787;
+
+  --color-text: #2c2b1f;
+  --color-text-muted: #5f5c42;
+  --color-text-faint: #9b9573;
+  --color-text-inverse: #f9f5e9;
+
+  /* Primary — deep olive */
+  --color-primary: #4c5a25;
+  --color-primary-hover: #3a4519;
+  --color-primary-active: #2b3312;
+  --color-primary-highlight: #dde3c4;
+  --color-primary-soft: #7a8c46;
+
+  /* Secondary — sandy terracotta accent (sparing use) */
+  --color-accent: #b9713f;
+  --color-accent-hover: #9c5c30;
+  --color-accent-highlight: #f0d9c2;
+
+  /* Cream / sand */
+  --color-sand: #e4cd9a;
+  --color-cream: #f7f2e7;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.75rem;
+  --radius-full: 9999px;
+
+  --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --shadow-sm: 0 1px 2px oklch(0.25 0.03 100 / 0.1);
+  --shadow-md: 0 8px 24px oklch(0.25 0.04 100 / 0.14);
+  --shadow-lg: 0 20px 48px oklch(0.25 0.05 100 / 0.2);
+
+  --content-narrow: 640px;
+  --content-default: 980px;
+  --content-wide: 1280px;
+  --content-full: 100%;
+
+  --font-display: 'Clash Display', 'Work Sans', sans-serif;
+  --font-body: 'Satoshi', 'Work Sans', sans-serif;
+}
+
+[data-theme='dark'] {
+  --color-bg: #1c1c13;
+  --color-surface: #222215;
+  --color-surface-2: #272717;
+  --color-surface-offset: #2a2a1a;
+  --color-surface-offset-2: #33331f;
+  --color-surface-dynamic: #3c3c25;
+  --color-divider: #3a3a24;
+  --color-border: #4a4a2c;
+
+  --color-text: #ece6d3;
+  --color-text-muted: #b8b193;
+  --color-text-faint: #9a957a;
+  --color-text-inverse: #23230f;
+
+  --color-primary: #a8bb6f;
+  --color-primary-hover: #bcce88;
+  --color-primary-active: #cfdfa2;
+  --color-primary-highlight: #3a4224;
+  --color-primary-soft: #8a9c58;
+
+  --color-accent: #d99a63;
+  --color-accent-hover: #e5b083;
+  --color-accent-highlight: #4a3623;
+
+  --color-sand: #7d6a3f;
+  --color-cream: #2a2a19;
+
+  --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.3);
+  --shadow-md: 0 8px 24px oklch(0 0 0 / 0.4);
+  --shadow-lg: 0 20px 48px oklch(0 0 0 / 0.5);
+}
