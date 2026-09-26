@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://anabelenperezdh.github.io/ana-belen-portfolio/sitemap.xml
