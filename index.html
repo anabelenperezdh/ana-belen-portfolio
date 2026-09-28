@@ -1,516 +1,547 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ana Belén Pérez de Haro — Marketing digital &amp; contenido audiovisual</title>
-<meta name="description" content="Portfolio de Ana Belén Pérez de Haro: marketing digital, ecommerce y producción audiovisual en Almería.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-/* =========================================================
-   Tokens
-   ========================================================= */
-:root {
-  --olive-deep:   #3E4A22;
-  --olive-deep-2: #4B5A29;
-  --olive-mid:    #6E8033;
-  --olive-bright: #A7BB63;
-  --sand:         #F5F1E1;
-  --paper:        #FFFDF6;
-  --clay:         #C1642F;
-  --clay-soft:    #D98A57;
-  --ink:          #262B1C;
-  --ink-soft:     #565C48;
-  --line:         #DFD9C2;
-  --line-dark:    rgba(245,241,225,0.22);
+  <!-- ===== SEO PRINCIPAL ===== -->
+  <title>Ana Belén Pérez de Haro | Marketing Digital en Almería — Portfolio</title>
+  <meta name="description" content="Ana Belén Pérez de Haro, profesional de marketing digital y contenido audiovisual en Almería. MBA + Máster en Marketing Digital y Ecommerce. Experiencia en visual marketing, redes sociales, branding y producción audiovisual. Disponible para proyectos en Almería y remoto." />
+  <meta name="keywords" content="marketing Almería, marketing digital Almería, profesional marketing Almería, consulta marketing Almería, Ana Belén Pérez de Haro, marketing digital, ecommerce Almería, contenido audiovisual Almería, visual marketing, edición de vídeo Almería, branding Almería, social media Almería" />
+  <meta name="author" content="Ana Belén Pérez de Haro" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="language" content="Spanish" />
+  <link rel="canonical" href="https://anabelenperezdh.github.io/ana-belen-portfolio/" />
 
-  --font-display: 'Bricolage Grotesque', 'Segoe UI', sans-serif;
-  --font-body:    'Inter', 'Segoe UI', sans-serif;
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Ana Belén Pérez de Haro | Marketing Digital en Almería" />
+  <meta property="og:description" content="Profesional de marketing digital y contenido audiovisual en Almería. MBA + Máster en Marketing Digital y Ecommerce. Disponible para proyectos." />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:url" content="https://anabelenperezdh.github.io/ana-belen-portfolio/" />
+  <meta property="og:image" content="https://anabelenperezdh.github.io/ana-belen-portfolio/assets/profile.jpg" />
+  <meta property="profile:first_name" content="Ana Belén" />
+  <meta property="profile:last_name" content="Pérez de Haro" />
 
-  --wrap: 1100px;
-  --radius: 4px;
-  --ease: cubic-bezier(.22,.68,.32,1);
-}
+  <!-- ===== Twitter ===== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ana Belén Pérez de Haro | Marketing Digital en Almería" />
+  <meta name="twitter:description" content="Profesional de marketing digital y contenido audiovisual en Almería. Disponible para proyectos." />
+  <meta name="twitter:image" content="https://anabelenperezdh.github.io/ana-belen-portfolio/assets/profile.jpg" />
 
-@media (prefers-reduced-motion: reduce) {
-  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
-  .reveal, .reveal-big { opacity: 1 !important; transform: none !important; }
-  [data-speed] { transform: none !important; }
-}
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234c5a25'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='14' font-weight='700' fill='%23f7f2e7' text-anchor='middle'%3EAB%3C/text%3E%3C/svg%3E" />
 
-* { box-sizing: border-box; }
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 84px;
-}
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./base.css" />
+  <link rel="stylesheet" href="./style.css" />
 
-body {
-  margin: 0;
-  background: var(--sand);
-  color: var(--ink);
-  font-family: var(--font-body);
-  font-size: 17px;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
-}
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ana Belén Pérez de Haro",
+    "alternateName": "Ana Belén Pérez",
+    "jobTitle": "Especialista en Marketing Digital y Contenido Audiovisual",
+    "description": "Profesional de marketing digital, ecommerce, social media y edición de vídeo basada en Almería, España. MBA + Máster en Marketing Digital y Ecommerce.",
+    "email": "mailto:anabelenperezh@gmail.com",
+    "image": "https://anabelenperezdh.github.io/ana-belen-portfolio/assets/profile.jpg",
+    "url": "https://anabelenperezdh.github.io/ana-belen-portfolio/",
+    "sameAs": [
+      "https://www.linkedin.com/in/anabelenperezdeharo/",
+      "https://youtu.be/Piquv6PM_PA"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Almería",
+      "addressRegion": "Andalucía",
+      "addressCountry": "ES",
+      "postalCode": "04000"
+    },
+    "knowsAbout": ["Marketing digital", "Ecommerce", "Social media", "Edición de vídeo", "Visual marketing", "Producción audiovisual", "Branding", "Análisis de mercado", "Meta Ads", "Google Ads", "Google Analytics", "HubSpot"],
+    "knowsLanguage": ["Español (nativo)", "Inglés (C1)"],
+    "alumniOf": [
+      { "@type": "EducationalOrganization", "name": "Escuela de Negocios de Barcelona" },
+      { "@type": "EducationalOrganization", "name": "The Core Entertainment" },
+      { "@type": "EducationalOrganization", "name": "Grupo Planeta" }
+    ],
+    "worksFor": [
+      { "@type": "Organization", "name": "Zara Ireland" },
+      { "@type": "Organization", "name": "The Bridge" },
+      { "@type": "Organization", "name": "Atresmedia" }
+    ]
+  }
+  </script>
+  <!-- JSON-LD: Website -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Portfolio — Ana Belén Pérez de Haro",
+    "url": "https://anabelenperezdh.github.io/ana-belen-portfolio/",
+    "description": "Portfolio profesional de marketing digital y contenido audiovisual en Almería.",
+    "inLanguage": "es-ES"
+  }
+  </script>
+</head>
+<body>
 
-.wrap {
-  max-width: var(--wrap);
-  margin: 0 auto;
-  padding: 0 28px;
-  position: relative;
-}
+  <!-- Skip link -->
+  <a href="#main" class="skip-link">Saltar al contenido</a>
 
-h1, h2, h3 {
-  font-family: var(--font-display);
-  color: var(--olive-deep);
-  line-height: 1.1;
-  margin: 0;
-}
+  <!-- Animated background -->
+  <div class="bg-decor" aria-hidden="true">
+    <div class="blob blob-1" data-parallax="0.3"></div>
+    <div class="blob blob-2" data-parallax="0.5"></div>
+    <div class="blob blob-3" data-parallax="0.2"></div>
+  </div>
 
-h2 { font-size: 2.1rem; font-weight: 700; }
-h3 { font-size: 1.15rem; font-weight: 600; }
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#hero" class="logo" aria-label="Ana Belén Pérez de Haro — Inicio">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="currentColor" opacity="0.1"/>
+          <text x="20" y="27" font-family="'Clash Display', sans-serif" font-size="16" font-weight="700" fill="currentColor" text-anchor="middle" letter-spacing="-0.5">AB</text>
+        </svg>
+        <span class="logo-text">Ana Belén</span>
+      </a>
 
-p { margin: 0 0 0.9em; max-width: 62ch; color: var(--ink-soft); }
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="#about" data-nav>Sobre mí</a>
+        <a href="#education" data-nav>Educación</a>
+        <a href="#projects" data-nav>Proyectos</a>
+        <a href="#skills" data-nav>Skills</a>
+        <a href="#contact" data-nav>Contacto</a>
+        <a href="#cv" data-nav>CV</a>
+      </nav>
 
-a { color: inherit; }
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Cambiar modo claro/oscuro">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+        </button>
+        <button class="menu-toggle" aria-label="Abrir menú" data-menu-toggle>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
 
-:focus-visible {
-  outline: 2px solid var(--clay);
-  outline-offset: 3px;
-}
+  <!-- Mobile nav -->
+  <div class="nav-overlay" data-nav-overlay></div>
+  <nav class="nav-mobile" aria-label="Navegación móvil" data-nav-mobile>
+    <a href="#about" data-nav-mobile-link>Sobre mí</a>
+    <a href="#education" data-nav-mobile-link>Educación</a>
+    <a href="#projects" data-nav-mobile-link>Proyectos</a>
+    <a href="#skills" data-nav-mobile-link>Skills</a>
+    <a href="#contact" data-nav-mobile-link>Contacto</a>
+    <a href="#cv" data-nav-mobile-link>CV</a>
+  </nav>
 
-.sprig {
-  width: 90px;
-  height: 27px;
-  color: var(--olive-mid);
-}
-.sprig-small { width: 56px; height: 17px; margin-bottom: 6px; }
-.sprig-hero { width: 130px; height: 39px; margin-bottom: 18px; color: var(--olive-bright); }
+  <!-- ============ MAIN ============ -->
+  <main id="main">
 
-/* =========================================================
-   Progress bar
-   ========================================================= */
-.progress-bar {
-  position: fixed;
-  top: 0; left: 0;
-  height: 3px;
-  width: 0%;
-  background: var(--clay);
-  z-index: 200;
-  transition: width 0.12s linear;
-}
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-tag reveal-fade">
+          <span class="dot"></span>
+          Disponible para nuevos proyectos
+        </div>
+        <h1 class="reveal">
+          Ana Belén <span class="accent">Pérez de Haro</span>
+        </h1>
+        <p class="hero-subtitle reveal-fade">
+          Marketing digital, ecommerce y contenido audiovisual en Almería. Convierto ideas en estrategias visuales que comunican, venden y emocionan.
+        </p>
+        <div class="hero-actions reveal-fade">
+          <a href="#projects" class="btn btn-primary">
+            Ver proyectos
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            Contactar
+          </a>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <div class="mouse"></div>
+        Scroll
+      </div>
+    </section>
 
-/* =========================================================
-   Header / nav
-   ========================================================= */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background: var(--olive-deep);
-  box-shadow: 0 0 0 rgba(0,0,0,0);
-  transition: box-shadow 0.3s var(--ease);
-}
-.site-header.is-scrolled {
-  box-shadow: 0 6px 24px rgba(20,20,10,0.22);
-}
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Sobre mí</span>
+          <h2 class="section-title">Hola, soy Ana Belén</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo reveal-left">
+            <div class="photo-deco"></div>
+            <div class="photo-frame">
+              <img src="./assets/profile.jpg" alt="Ana Belén Pérez de Haro" loading="lazy" />
+            </div>
+          </div>
+          <div class="about-text reveal-right">
+            <p>
+              Soy una profesional del <strong>marketing digital y la comunicación audiovisual</strong> con sede en Almería. Mi trayectoria combina el visual marketing y el análisis de datos con la creación de contenido digital y la edición de vídeo.
+            </p>
+            <p>
+              Tras formarme en marketing digital, ecommerce y postproducción audiovisual, he desarrollado un perfil versátil que une <strong>estrategia comercial</strong> y <strong>narrativa visual</strong>. Disfruto creando contenidos que no solo se ven bien, sino que cumplen objetivos.
+            </p>
+            <p>
+              Actualmente amplío mi formación con certificaciones en <strong>HubSpot</strong>, <strong>Meta</strong> y <strong>Google</strong> para seguir creciendo en el ámbito del marketing digital.
+            </p>
+            <div class="about-info">
+              <div class="about-info-item">
+                <span class="label">Ubicación</span>
+                <span class="value">Almería, Andalucía</span>
+              </div>
+              <div class="about-info-item">
+                <span class="label">Idiomas</span>
+                <span class="value">Español nativo · Inglés C1</span>
+              </div>
+              <div class="about-info-item">
+                <span class="label">Especialidad</span>
+                <span class="value">Marketing digital · Audiovisual</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-.header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 68px;
-}
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Educación</span>
+          <h2 class="section-title">Formación académica</h2>
+          <p class="section-subtitle">Una combinación de negocio, marketing digital y producción audiovisual.</p>
+        </div>
+        <div class="education-timeline stagger">
+          <div class="edu-item reveal-scale">
+            <div class="edu-year">2023 — 2025</div>
+            <div>
+              <h3 class="edu-title">MBA + Máster en Marketing Digital y Ecommerce</h3>
+              <p class="edu-institution">Escuela de Negocios de Barcelona</p>
+              <p class="edu-desc">Programa conjunto que combina administración de empresas con estrategia digital, SEO/SEM, email marketing, analítica web, redes sociales y comercio electrónico.</p>
+            </div>
+          </div>
+          <div class="edu-item reveal-scale">
+            <div class="edu-year">2021 — 2022</div>
+            <div>
+              <h3 class="edu-title">Máster en Postproducción y Edición de Vídeo</h3>
+              <p class="edu-institution">The Core Entertainment</p>
+              <p class="edu-desc">Postproducción avanzada: edición, color grading, motion graphics y composición visual para cine, TV y digital.</p>
+            </div>
+          </div>
+          <div class="edu-item reveal-scale">
+            <div class="edu-year">2018 — 2020</div>
+            <div>
+              <h3 class="edu-title">FP Grado Superior en Producción Audiovisual, Eventos y Espectáculos</h3>
+              <p class="edu-institution">Grupo Planeta</p>
+              <p class="edu-desc">Producción y realización de proyectos audiovisuales, gestión de eventos, iluminación, sonido y dirección de escena.</p>
+            </div>
+          </div>
+          <div class="edu-item reveal-scale">
+            <div class="edu-year">C1</div>
+            <div>
+              <h3 class="edu-title">Inglés Avanzado — Nivel C1</h3>
+              <p class="edu-institution">MCER (Marco Común Europeo de Referencia)</p>
+              <p class="edu-desc">Competencia profesional en inglés hablado y escrito, con capacidad para desenvolverse en entornos internacionales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-.logo {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--sand);
-  text-decoration: none;
-}
+    <!-- ===== PROJECTS / WORK ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Proyectos</span>
+          <h2 class="section-title">Experiencia profesional</h2>
+          <p class="section-subtitle">Una trayectoria que une el visual marketing con la creación de contenido digital.</p>
+        </div>
 
-.site-nav {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-}
+        <div class="projects-grid stagger">
+          <!-- Zara Ireland -->
+          <article class="project-card reveal-scale">
+            <div class="project-media">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+                  <rect x="2" y="6" width="20" height="16" rx="2"/>
+                  <path d="M2 14h20M12 6v16"/>
+                </svg>
+              </div>
+              <span class="badge">Visual Marketing</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Zara Ireland</h3>
+              <p class="project-role">Comercial / Visual Merchandiser · 2023 — 2025</p>
+              <p class="project-desc">Implementación de estrategias de visual marketing para mejorar la experiencia de cliente y aumentar las ventas. Análisis de tendencias de mercado y comportamiento del consumidor aplicando criterios data-driven para optimizar la exposición del producto.</p>
+              <div class="project-tags">
+                <span class="project-tag">Visual Marketing</span>
+                <span class="project-tag">Data-Driven</span>
+                <span class="project-tag">KPIs</span>
+                <span class="project-tag">Branding</span>
+              </div>
+            </div>
+          </article>
 
-.nav-link {
-  position: relative;
-  color: var(--sand);
-  text-decoration: none;
-  font-size: 0.95rem;
-  opacity: 0.85;
-  padding-bottom: 4px;
-  transition: opacity 0.15s ease;
-}
-.nav-link::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 0%;
-  height: 2px;
-  background: var(--olive-bright);
-  transition: width 0.25s var(--ease), left 0.25s var(--ease);
-}
-.nav-link:hover { opacity: 1; }
-.nav-link:hover::after { width: 100%; left: 0%; }
+          <!-- The Bridge -->
+          <article class="project-card reveal-scale">
+            <div class="project-media">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="6" width="14" height="12" rx="2"/>
+                  <path d="M16 10l6-4v12l-6-4"/>
+                </svg>
+              </div>
+              <span class="badge">Contenido Digital</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">The Bridge</h3>
+              <p class="project-role">Editora de Vídeo y Contenidos Digitales · 2022 — 2023</p>
+              <p class="project-desc">Creación y edición de contenidos audiovisuales para redes sociales, campañas de marketing digital y comunicación corporativa. Producción de eventos en streaming y entrevistas optimizadas para YouTube, Instagram y LinkedIn.</p>
+              <div class="project-tags">
+                <span class="project-tag">Edición de Vídeo</span>
+                <span class="project-tag">Social Media</span>
+                <span class="project-tag">Streaming</span>
+                <span class="project-tag">Engagement</span>
+              </div>
+            </div>
+          </article>
 
-.nav-cv {
-  color: var(--olive-deep);
-  background: var(--sand);
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 8px 16px;
-  border-radius: var(--radius);
-  transition: background 0.2s ease, transform 0.2s var(--ease), box-shadow 0.2s ease;
-}
-.nav-cv:hover { background: var(--paper); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.18); }
+          <!-- Atresmedia -->
+          <article class="project-card reveal-scale">
+            <div class="project-media">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2"/>
+                  <path d="M8 21h8M12 17v4"/>
+                </svg>
+              </div>
+              <span class="badge">Producción TV</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Atresmedia</h3>
+              <p class="project-role">Becaria de Producción de Informativos · 2020</p>
+              <p class="project-desc">Coordinación de entrevistas, rodajes y reportajes aplicando técnicas de producción audiovisual y storytelling. Participación en la planificación de piezas informativas con enfoque en comunicación digital y narrativa visual.</p>
+              <div class="project-tags">
+                <span class="project-tag">Producción Audiovisual</span>
+                <span class="project-tag">Storytelling</span>
+                <span class="project-tag">Informativos</span>
+              </div>
+            </div>
+          </article>
+        </div>
 
-.nav-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  width: 40px;
-  height: 40px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-.nav-toggle span {
-  display: block;
-  height: 2px;
-  width: 100%;
-  background: var(--sand);
-  transition: transform 0.25s var(--ease), opacity 0.2s ease;
-}
-.nav-toggle.is-active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.nav-toggle.is-active span:nth-child(2) { opacity: 0; }
-.nav-toggle.is-active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+        <!-- Demo Reel -->
+        <div class="demo-reel reveal-scale">
+          <h3>Demo Reel</h3>
+          <p>Una selección de mis mejores trabajos de edición y postproducción audiovisual.</p>
+          <!-- TODO: Sustituir el href con tu enlace de Vimeo/YouTube -->
+          <a href="https://youtu.be/Piquv6PM_PA" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-demo-reel title="Ver demo reel en YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3" fill="currentColor"/>
+            </svg>
+            Ver demo reel
+          </a>
+        </div>
+      </div>
+    </section>
 
-/* =========================================================
-   Decorative parallax layer (blobs)
-   ========================================================= */
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 0;
-}
-.blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(60px);
-  opacity: 0.5;
-  will-change: transform;
-}
-.blob-1 { width: 380px; height: 380px; background: var(--olive-mid); top: -120px; right: -80px; }
-.blob-2 { width: 280px; height: 280px; background: var(--clay-soft); bottom: -100px; left: -60px; opacity: 0.35; }
-.blob-3 { width: 420px; height: 420px; background: var(--olive-bright); top: 20%; right: -160px; opacity: 0.18; }
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Skills</span>
+          <h2 class="section-title">Herramientas y certificaciones</h2>
+          <p class="section-subtitle">Software de postproducción y formación en curso en marketing digital.</p>
+        </div>
 
-.sprig-hero-bg {
-  position: absolute;
-  width: 340px;
-  height: 102px;
-  right: 6%;
-  bottom: 12%;
-  color: var(--olive-mid);
-  opacity: 0.18;
-  will-change: transform;
-}
+        <div class="skills-grid">
+          <!-- Tools -->
+          <div class="skills-group reveal-left">
+            <h3>Software</h3>
+            <div class="skill-tags stagger">
+              <span class="skill-tag reveal-scale">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l6-4v12l-6-4"/></svg>
+                Premiere Pro
+              </span>
+              <span class="skill-tag reveal-scale">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                After Effects
+              </span>
+              <span class="skill-tag reveal-scale">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 0 0 20M12 2a10 10 0 0 1 0 20M2 12h20"/></svg>
+                DaVinci Resolve
+              </span>
+              <span class="skill-tag reveal-scale">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                Cinema 4D
+              </span>
+              <span class="skill-tag reveal-scale">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18M12 3v18"/></svg>
+                Photoshop
+              </span>
+            </div>
+          </div>
 
-/* =========================================================
-   Hero
-   ========================================================= */
-.hero {
-  position: relative;
-  padding: 88px 0 96px;
-  background: var(--olive-deep);
-  color: var(--sand);
-  overflow: hidden;
-}
+          <!-- Certifications -->
+          <div class="skills-group reveal-right">
+            <h3>Certificaciones en curso</h3>
+            <div class="stagger">
+              <div class="cert-item reveal-scale">
+                <div class="cert-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <div class="cert-info">
+                  <div class="cert-name">HubSpot Certification</div>
+                  <div class="cert-status">
+                    En curso
+                    <span class="progress"><span class="progress-fill" style="width: 45%"></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-item reveal-scale">
+                <div class="cert-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <div class="cert-info">
+                  <div class="cert-name">Meta Blueprint</div>
+                  <div class="cert-status">
+                    En curso
+                    <span class="progress"><span class="progress-fill" style="width: 30%"></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="cert-item reveal-scale">
+                <div class="cert-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+                </div>
+                <div class="cert-info">
+                  <div class="cert-name">Google Ads / Analytics</div>
+                  <div class="cert-status">
+                    En curso
+                    <span class="progress"><span class="progress-fill" style="width: 60%"></span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-.hero-inner {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  gap: 56px;
-  align-items: center;
-}
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-section reveal-scale">
+          <h2 class="section-title">¿Hablamos?</h2>
+          <p>Estoy abierta a nuevas oportunidades, colaboraciones y proyectos de marketing y contenido audiovisual en Almería y en remoto.</p>
+          <div class="contact-actions">
+            <a href="mailto:anabelenperezh@gmail.com" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M2 7l10 6 10-6"/>
+              </svg>
+              Enviar email
+            </a>
+            <a href="https://www.linkedin.com/in/anabelenperezdeharo/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+              LinkedIn
+            </a>
+          </div>
 
-.hero-text > * {
-  opacity: 0;
-  transform: translateY(18px);
-  animation: fadeUp 0.7s var(--ease) forwards;
-}
-.hero-text .sprig-hero { animation-delay: 0.05s; }
-.hero-text h1 { animation-delay: 0.15s; }
-.hero-text .role { animation-delay: 0.32s; }
-.hero-text .bio { animation-delay: 0.46s; }
-.hero-text .hero-actions { animation-delay: 0.6s; }
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/anabelenperezdeharo/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn — Ana Belén Pérez de Haro">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Enlace pendiente — sustituir por tu URL de Instagram" data-placeholder>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://youtu.be/Piquv6PM_PA" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Demo Reel" title="Ver demo reel en YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
 
-.hero-text h1 {
-  font-size: clamp(2.4rem, 5vw, 3.4rem);
-  font-weight: 700;
-  color: var(--sand);
-}
+          <p class="pending-note">Prefiero contacto por email o LinkedIn. Instagram y Vimeo se actualizarán pronto.</p>
+        </div>
+      </div>
+    </section>
 
-.role {
-  font-size: 1.2rem;
-  color: var(--olive-bright);
-  font-weight: 500;
-  margin-top: 14px;
-}
+    <!-- ===== CV ===== -->
+    <section class="section" id="cv">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Currículum</span>
+          <h2 class="section-title">Descarga mi CV</h2>
+          <p class="section-subtitle">Mi trayectoria completa en un documento PDF listo para descargar.</p>
+        </div>
+        <div class="cv-download reveal-scale">
+          <a href="./assets/cv-ana-belen-perez.pdf" class="btn btn-primary" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+            Descargar CV (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
 
-.bio { margin-top: 18px; color: rgba(245,241,225,0.78); }
+    <!-- ===== SEO LOCAL CONTENT ===== -->
+    <section class="section" id="marketing-almeria" style="padding-block: clamp(2rem, 5vw, 3rem);">
+      <div class="container">
+        <div class="reveal" style="max-width: 760px; margin-inline: auto; text-align: center;">
+          <span class="section-label">Marketing digital en Almería</span>
+          <h2 class="section-title" style="font-size: var(--text-xl); margin-block-end: var(--space-6);">Profesional de marketing digital en Almería</h2>
+          <p style="color: var(--color-text-muted); font-size: var(--text-sm); line-height: 1.8;">
+            Soy Ana Belén Pérez de Haro, profesional de marketing digital y contenido audiovisual con base en Almería, Andalucía. Ofrezco servicios de marketing digital, gestión de redes sociales, branding, visual marketing, producción de contenido audiovisual y análisis de datos para empresas y proyectos en Almería capital, Roquetas de Mar, El Ejido, Níjar, Adra, Vícar y el resto de la provincia de Almería, así como trabajo en remoto para clientes de toda España.
+          </p>
+          <p style="color: var(--color-text-muted); font-size: var(--text-sm); line-height: 1.8; margin-block-start: var(--space-4);">
+            Con formación en MBA y Máster en Marketing Digital y Ecommerce por la Escuela de Negocios de Barcelona, y experiencia previa en empresas como Zara Ireland, The Bridge y Atresmedia, combino estrategia de marketing con producción audiovisual para ofrecer un enfoque 360 grados: desde la planificación de campañas y la analítica de resultados hasta la creación de contenido en vídeo, motion graphics y diseño visual para redes sociales.
+          </p>
+        </div>
+      </div>
+    </section>
 
-.hero-actions {
-  display: flex;
-  gap: 14px;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
+  </main>
 
-.btn {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 600;
-  padding: 12px 24px;
-  border-radius: var(--radius);
-  transition: transform 0.25s var(--ease), background 0.2s ease, border-color 0.2s ease, box-shadow 0.25s ease;
-}
-.btn::before {
-  content: '';
-  position: absolute;
-  top: 0; left: -130%;
-  width: 60%; height: 100%;
-  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.35), transparent);
-  transform: skewX(-20deg);
-  transition: left 0.55s ease;
-}
-.btn:hover::before { left: 130%; }
-.btn:hover { transform: translateY(-3px); }
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span data-year>2026</span> Ana Belén Pérez de Haro · Marketing digital y contenido audiovisual · Almería, Andalucía, España</p>
+      <p style="font-size: var(--text-xs); color: var(--color-text-faint); margin-block-start: var(--space-2);">
+        <a href="https://anabelenperezdh.github.io/ana-belen-portfolio/" style="color: inherit; text-decoration: none;">anabelenperezdh.github.io/ana-belen-portfolio</a> · <a href="./sitemap.xml" style="color: inherit; text-decoration: none;">Sitemap</a> · <a href="./robots.txt" style="color: inherit; text-decoration: none;">Robots.txt</a>
+      </p>
+    </div>
+  </footer>
 
-.btn-primary {
-  background: var(--olive-bright);
-  color: var(--olive-deep);
-}
-.btn-primary:hover { background: var(--sand); box-shadow: 0 10px 24px rgba(0,0,0,0.25); }
-
-.btn-ghost {
-  background: transparent;
-  color: var(--sand);
-  border: 1.5px solid rgba(245,241,225,0.6);
-}
-.btn-ghost:hover { background: rgba(245,241,225,0.12); border-color: var(--sand); }
-
-/* botones sobre fondos claros */
-.section-light .btn-ghost { color: var(--olive-deep); border-color: var(--olive-deep); }
-.section-light .btn-ghost:hover { background: var(--olive-deep); color: var(--paper); }
-
-.hero-photo {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-  opacity: 0;
-  transform: translateY(18px);
-  animation: fadeUp 0.7s var(--ease) forwards;
-  animation-delay: 0.3s;
-}
-
-.photo-glow {
-  position: absolute;
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(167,187,99,0.55), transparent 70%);
-  animation: floatGlow 6s ease-in-out infinite;
-}
-
-.photo-placeholder {
-  position: relative;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  background: var(--olive-mid);
-  color: var(--paper);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-display);
-  font-size: 3.2rem;
-  font-weight: 700;
-  border: 6px solid var(--olive-deep-2);
-  box-shadow: 0 0 0 1.5px rgba(245,241,225,0.4);
-  transition: transform 0.35s var(--ease);
-}
-.photo-placeholder:hover { transform: rotate(-4deg) scale(1.05); }
-
-.scroll-cue {
-  position: absolute;
-  left: 50%;
-  bottom: 26px;
-  transform: translateX(-50%);
-  width: 22px;
-  height: 36px;
-  border: 2px solid rgba(245,241,225,0.5);
-  border-radius: 12px;
-  z-index: 1;
-}
-.scroll-cue span {
-  position: absolute;
-  top: 6px;
-  left: 50%;
-  width: 4px;
-  height: 8px;
-  background: var(--olive-bright);
-  border-radius: 2px;
-  transform: translateX(-50%);
-  animation: bounceCue 1.8s ease-in-out infinite;
-}
-
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(18px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-@keyframes floatGlow {
-  0%, 100% { transform: scale(1); opacity: 0.55; }
-  50%      { transform: scale(1.12); opacity: 0.85; }
-}
-@keyframes bounceCue {
-  0%, 100% { opacity: 0.3; top: 6px; }
-  50%      { opacity: 1; top: 16px; }
-}
-
-/* =========================================================
-   Dividers (transiciones grandes entre secciones)
-   ========================================================= */
-.divider {
-  position: relative;
-  height: 90px;
-  overflow: hidden;
-  line-height: 0;
-}
-.divider-shape { width: 100%; height: 100%; display: block; }
-
-.divider-dark-to-light { background: var(--olive-deep); }
-.divider-dark-to-light .divider-shape { color: var(--sand); }
-
-.divider-light-to-dark { background: var(--sand); }
-.divider-light-to-dark .divider-shape { color: var(--olive-deep); }
-
-/* =========================================================
-   Sections
-   ========================================================= */
-.section { position: relative; padding: 88px 0; overflow: hidden; }
-
-.section-light { background: var(--sand); color: var(--ink); }
-
-.section-dark {
-  color: var(--sand);
-  background: linear-gradient(120deg, var(--olive-deep) 0%, var(--olive-deep-2) 45%, var(--olive-deep) 100%);
-  background-size: 220% 220%;
-  animation: driftGradient 22s ease-in-out infinite;
-}
-.section-dark h2, .section-dark h3 { color: var(--sand); }
-.section-dark p { color: rgba(245,241,225,0.78); }
-.section-dark .sprig { color: var(--olive-bright); }
-
-@keyframes driftGradient {
-  0%, 100% { background-position: 0% 50%; }
-  50%      { background-position: 100% 50%; }
-}
-
-.section-heading { margin-bottom: 44px; }
-
-/* Reveal on scroll */
-.reveal-big {
-  opacity: 0;
-  transform: translateY(26px) scale(0.97);
-  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
-}
-.reveal-big.in-view { opacity: 1; transform: translateY(0) scale(1); }
-
-.reveal {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
-}
-.reveal.in-view { opacity: 1; transform: translateY(0); }
-
-.timeline-item:nth-child(1) { transition-delay: 0s; }
-.timeline-item:nth-child(2) { transition-delay: 0.09s; }
-.timeline-item:nth-child(3) { transition-delay: 0.18s; }
-.timeline-item:nth-child(4) { transition-delay: 0.27s; }
-
-.skill-group:nth-child(1) { transition-delay: 0s; }
-.skill-group:nth-child(2) { transition-delay: 0.08s; }
-.skill-group:nth-child(3) { transition-delay: 0.16s; }
-.skill-group:nth-child(4) { transition-delay: 0.24s; }
-
-/* Timeline (Formación / Experiencia) */
-.timeline {
-  position: relative;
-  z-index: 1;
-  list-style: none;
-  margin: 0;
-  padding: 0 0 0 24px;
-  border-left: 2px solid var(--line);
-}
-.section-dark .timeline { border-left-color: var(--line-dark); }
-
-.timeline-item {
-  position: relative;
-  padding: 0 0 40px 32px;
-  transition: opacity 0.6s var(--ease), transform 0.4s var(--ease);
-}
-.timeline-item:last-child { padding-bottom: 0; }
-.timeline-item:hover .timeline-content { transform: translateX(8px); }
-.timeline-item:hover .timeline-dot { transform: scale(1.5); }
-
-.timeline-dot {
-  position: absolute;
-  left: -37px;
-  top: 4px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--clay);
-  border: 3px solid var(--sand);
-  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
-}
-.section-dark .timeline-dot { border-color: var(--olive-deep); box-shadow: 0 0 0 0 rgba(193,100,47,0); }
-.timeline-item:hover .timeline-dot { box-shadow: 0 0 0 6px rgba(193,100,47,0.2); }
-
-.timeline-content { transition: transform 0.3s var(--ease); }
-
-.timeline-date {
-  display: block;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--olive-mid);
-  margin-bottom: 6px;
-}
-.section-dark .timeline-date { color: var(--olive-bright); }
-
-.timeline-content h3 { margin-bottom: 4px; }
-.timeline-content p { margin-bottom: 0; }
-.role-label { color: var(--olive-deep); font-weight: 500; margin-bottom: 4px !important; }
-.section-dark .role-label {
+  <!-- ===== SCRIPT ===== -->
+  <script src="./app.js" defer></script>
+</body>
+</html>
